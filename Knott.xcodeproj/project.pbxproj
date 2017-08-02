@@ -15,6 +15,10 @@
 		0B3697241F322C2C00541BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3697221F322C2C00541BFC /* LaunchScreen.storyboard */; };
 		0B36972F1F322C2C00541BFC /* KnottTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36972E1F322C2C00541BFC /* KnottTests.swift */; };
 		0B36973A1F322C2C00541BFC /* KnottUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3697391F322C2C00541BFC /* KnottUITests.swift */; };
+		0B3697481F32308F00541BFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B3697471F32308F00541BFC /* GoogleService-Info.plist */; };
+		878C7841FB24F6FE7C574954 /* Pods_KnottUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE502B4BE22E557550CEBA3B /* Pods_KnottUITests.framework */; };
+		A1CBD4CD08E250454DFCD697 /* Pods_KnottTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EA061B61B7E179D314A33A /* Pods_KnottTests.framework */; };
+		F8825EFC14CBF2F628003C31 /* Pods_Knott.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7DD987CD06B2345001CB50 /* Pods_Knott.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		088AE51920A05E916C57E83C /* Pods-Knott.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knott.release.xcconfig"; path = "Pods/Target Support Files/Pods-Knott/Pods-Knott.release.xcconfig"; sourceTree = "<group>"; };
 		0B3697131F322C2C00541BFC /* Knott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3697161F322C2C00541BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B3697181F322C2C00541BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		0B3697351F322C2C00541BFC /* KnottUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnottUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3697391F322C2C00541BFC /* KnottUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnottUITests.swift; sourceTree = "<group>"; };
 		0B36973B1F322C2C00541BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3697471F32308F00541BFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15DF282EC7BB07B11B318945 /* Pods-KnottTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnottTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnottTests/Pods-KnottTests.release.xcconfig"; sourceTree = "<group>"; };
+		273498AAB73ECF54ED42AD5A /* Pods-KnottUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnottUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnottUITests/Pods-KnottUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67720DA5EF49CEE11A718A69 /* Pods-Knott.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knott.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Knott/Pods-Knott.debug.xcconfig"; sourceTree = "<group>"; };
+		7798FA4544680E88AE78AF2E /* Pods-KnottUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnottUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnottUITests/Pods-KnottUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87EA061B61B7E179D314A33A /* Pods_KnottTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnottTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7DD987CD06B2345001CB50 /* Pods_Knott.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knott.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92C7CA8892C23A36FB08B6D /* Pods-KnottTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnottTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnottTests/Pods-KnottTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE502B4BE22E557550CEBA3B /* Pods_KnottUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnottUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8825EFC14CBF2F628003C31 /* Pods_Knott.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CBD4CD08E250454DFCD697 /* Pods_KnottTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878C7841FB24F6FE7C574954 /* Pods_KnottUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				0B36972D1F322C2C00541BFC /* KnottTests */,
 				0B3697381F322C2C00541BFC /* KnottUITests */,
 				0B3697141F322C2C00541BFC /* Products */,
+				33F14FE6068E638E25099590 /* Pods */,
+				42E933EEB02B037466FF38F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 		0B3697151F322C2C00541BFC /* Knott */ = {
 			isa = PBXGroup;
 			children = (
+				0B3697471F32308F00541BFC /* GoogleService-Info.plist */,
 				0B3697161F322C2C00541BFC /* AppDelegate.swift */,
 				0B3697181F322C2C00541BFC /* ViewController.swift */,
 				0B36971A1F322C2C00541BFC /* Main.storyboard */,
@@ -128,6 +148,29 @@
 			path = KnottUITests;
 			sourceTree = "<group>";
 		};
+		33F14FE6068E638E25099590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67720DA5EF49CEE11A718A69 /* Pods-Knott.debug.xcconfig */,
+				088AE51920A05E916C57E83C /* Pods-Knott.release.xcconfig */,
+				E92C7CA8892C23A36FB08B6D /* Pods-KnottTests.debug.xcconfig */,
+				15DF282EC7BB07B11B318945 /* Pods-KnottTests.release.xcconfig */,
+				7798FA4544680E88AE78AF2E /* Pods-KnottUITests.debug.xcconfig */,
+				273498AAB73ECF54ED42AD5A /* Pods-KnottUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42E933EEB02B037466FF38F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7DD987CD06B2345001CB50 /* Pods_Knott.framework */,
+				87EA061B61B7E179D314A33A /* Pods_KnottTests.framework */,
+				EE502B4BE22E557550CEBA3B /* Pods_KnottUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B36973E1F322C2C00541BFC /* Build configuration list for PBXNativeTarget "Knott" */;
 			buildPhases = (
+				6DAA52324BA9F6DD9AE6C389 /* [CP] Check Pods Manifest.lock */,
 				0B36970F1F322C2C00541BFC /* Sources */,
 				0B3697101F322C2C00541BFC /* Frameworks */,
 				0B3697111F322C2C00541BFC /* Resources */,
+				FE7FAF863012E06F5C268CF3 /* [CP] Embed Pods Frameworks */,
+				AEAB78A5FACFD6143B222965 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B3697411F322C2C00541BFC /* Build configuration list for PBXNativeTarget "KnottTests" */;
 			buildPhases = (
+				8606E7E7058678BFF127D9AB /* [CP] Check Pods Manifest.lock */,
 				0B3697261F322C2C00541BFC /* Sources */,
 				0B3697271F322C2C00541BFC /* Frameworks */,
 				0B3697281F322C2C00541BFC /* Resources */,
+				66FA138DC416A7CC9920D261 /* [CP] Embed Pods Frameworks */,
+				876AE8431D9494A8759EA233 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B3697441F322C2C00541BFC /* Build configuration list for PBXNativeTarget "KnottUITests" */;
 			buildPhases = (
+				125295B3C7055A4CA1E2243B /* [CP] Check Pods Manifest.lock */,
 				0B3697311F322C2C00541BFC /* Sources */,
 				0B3697321F322C2C00541BFC /* Frameworks */,
 				0B3697331F322C2C00541BFC /* Resources */,
+				A7BE4C975C61D02F32A9226C /* [CP] Embed Pods Frameworks */,
+				3E00560008D09F343D65A47A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3697241F322C2C00541BFC /* LaunchScreen.storyboard in Resources */,
+				0B3697481F32308F00541BFC /* GoogleService-Info.plist in Resources */,
 				0B3697211F322C2C00541BFC /* Assets.xcassets in Resources */,
 				0B36971C1F322C2C00541BFC /* Main.storyboard in Resources */,
 			);
@@ -259,6 +312,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125295B3C7055A4CA1E2243B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E00560008D09F343D65A47A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnottUITests/Pods-KnottUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FA138DC416A7CC9920D261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnottTests/Pods-KnottTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAA52324BA9F6DD9AE6C389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8606E7E7058678BFF127D9AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		876AE8431D9494A8759EA233 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnottTests/Pods-KnottTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BE4C975C61D02F32A9226C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnottUITests/Pods-KnottUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEAB78A5FACFD6143B222965 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knott/Pods-Knott-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7FAF863012E06F5C268CF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knott/Pods-Knott-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B36970F1F322C2C00541BFC /* Sources */ = {
@@ -419,6 +610,7 @@
 		};
 		0B36973F1F322C2C00541BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67720DA5EF49CEE11A718A69 /* Pods-Knott.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 486876UVKG;
@@ -432,6 +624,7 @@
 		};
 		0B3697401F322C2C00541BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088AE51920A05E916C57E83C /* Pods-Knott.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 486876UVKG;
@@ -445,6 +638,7 @@
 		};
 		0B3697421F322C2C00541BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92C7CA8892C23A36FB08B6D /* Pods-KnottTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +654,7 @@
 		};
 		0B3697431F322C2C00541BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DF282EC7BB07B11B318945 /* Pods-KnottTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +670,7 @@
 		};
 		0B3697451F322C2C00541BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7798FA4544680E88AE78AF2E /* Pods-KnottUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 486876UVKG;
@@ -489,6 +685,7 @@
 		};
 		0B3697461F322C2C00541BFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273498AAB73ECF54ED42AD5A /* Pods-KnottUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 486876UVKG;
